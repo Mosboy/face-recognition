@@ -1,0 +1,14 @@
+.rank{
+	margin:auto;
+}
+.rank>.name{
+	font-size:20px;
+	color: silver;
+}
+.rank>.entries{
+	font-size:25px;
+	color:silver;
+	margin:auto;
+	text-align: center;
+	text-shadow: 1px 1px 1px midnightblue;
+}

@@ -1,0 +1,27 @@
+.alert {
+    padding: 10px;
+    background-color:rgba(0,0,0,0.5);
+    color:goldenrod;
+    font-family:monospace;
+}
+.closebtn {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-align:left;
+    padding:0px;
+    padding-right: 3px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+.alert>strong{
+    color:yellow;
+    padding-right:3px;
+    font-family:cursive;
+    font-weight: bolder;
+}

@@ -1,0 +1,29 @@
+.imagebound{
+	position: relative;
+	
+	background:red;
+	width:100%;
+}
+.imagebound > div{
+	top:10px;
+}
+.bounding-box{
+	position:absolute;
+
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	cursor:pointer;
+	background:rgba(273,0,0,0.5);
+}
+@media only screen and (max-width:400px){
+	.imagebound{margin:auto}
+	.imagebound > div{
+		position: relative;
+		margin:auto;
+	}
+	.imagebound > div > #inputimage{
+		position: relative;
+		margin:auto;
+	}
+}

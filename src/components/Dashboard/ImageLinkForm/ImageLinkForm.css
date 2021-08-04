@@ -1,0 +1,88 @@
+.get_img{
+	display:flex;
+	flex-direction: column;
+	margin:auto;
+	align-items: center;
+}
+.get_img >p {
+	font-size:15px;
+	letter-spacing: 2px;
+	text-align:center;
+	font-family: monospace;
+	text-shadow: 1px 1px 1px white;
+	word-wrap: normal;
+	word-break: normal;
+}
+.get_img > p > em{
+	color:red;
+	text-shadow:none;
+	font-size:20px;
+	letter-spacing: 1px;
+}
+.inp_but{
+	
+	align-self:center;
+	display:flex;
+	padding:0px 30px;
+}
+.inp_but>input[type="text"]{
+	width:300px;
+	margin:auto;
+	border-radius: 0px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: none;
+	padding:20px 0px;
+}
+.inp_but>input:focus{
+	outline:none;
+}
+.inp_but>button{
+   font-family: cursive;
+    color:white;
+    background:purple;
+    padding:0px 30px;
+    border-left:none;
+    border:none;
+}
+.inp_but>button:active,.inp_but>button:hover{
+	background-color:grey;
+}
+.inp_but>input[type="file"]{
+	position: absolute;
+	width:0px;height:0px;opacity: 0;z-index: -1;
+}
+
+.inp_but label{
+	background:midnightblue;
+	cursor: pointer;
+	margin:0px 10px;
+    width:100px;
+    border-radius: 5px;
+}
+.inp_but label:hover{opacity: 0.7}
+.inp_but label>img{
+ width:30px;
+ display:inline-block;
+ position: relative;
+ top:7px;
+}.inp_but label>em{position: relative;top:-2px;font-family:monospace;word-spacing:0.5px;font-family: cursive;font-weight: bold;}
+button{
+	cursor:pointer;
+	border:none;
+}
+@media only screen and (max-width:500px){
+ .inp_but{max-width: 100vw;}
+ .inp_but input[type="text"]{width:40vw;}
+ .inp_but>button {box-sizing:border-box;width:100px;padding:0px;padding-right: 10px;padding-left:5px;}
+ .get_img>p{font-size:12px;word-break: break-all;}
+ .get_img > p > em{font-size:10px;}
+}
+@media only screen and (max-width:400px){
+  .inp_but{width:90vw;}
+  .inp_but input[type="text"],.inp_but>button{width:60vw;  margin-bottom: 30px}
+}
+@media only screen and (max-width:273px){
+
+}

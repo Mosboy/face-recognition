@@ -1,0 +1,28 @@
+html{
+	box-sizing:border-box;
+}
+*,*::after,*::before{
+	box-sizing:border-box;
+}
+body{
+	box-sizing: border-box;
+	margin:0;
+	font-family:"Courier New",Courier,monospace;
+	padding:2vw;
+	background:linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+}
+.particles{
+	position: fixed;top:0;left:0;right:0;z-index: -1;
+}
+.particles2{
+	position: fixed;bottom:0;left:0;right:0;z-index: -1;
+}
+nav{position:fixed; right: 0;color:blue;}
+.nav_sign>.p_signout:hover,.nav_sign>.p_signout:active{
+	color:brown !important;
+}
+@media only screen and (max-width:300px){
+	body{
+		background:grey;
+	}
+}

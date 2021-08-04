@@ -1,0 +1,87 @@
+body{
+	background:green;
+}
+article{
+	width:300px;
+	margin:auto;
+	border:1px solid rgba(0,0,0,0.3);
+	box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+	border-radius:3px;
+    box-shadow:5px;
+}
+main{
+	padding:4px;
+}
+fieldset{
+	border:none;
+}
+.legend{
+	text-align:center;
+	letter-spacing:5px;
+	font-family:monospace;
+	font-size:20px;
+	text-shadow: 1px 1px 1px snow;
+	font-weight:bolder;
+}
+label{
+	display:block;
+	font-size:15px;
+	width:50px;
+	padding:3px;
+	margin:auto;
+	color:white;
+	font-family: cursive;
+	text-align:center;
+}
+form{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+}
+.email,.password,.sign-in,.name,.register{
+	width:150px;
+	margin:auto;
+	font-weight: bold;
+	text-align:center;
+}
+input{
+	background:none;
+	border:1px solid rgba(0,0,0,0.5);
+	color:rgba(0,0,0,0.7);
+	font-family:monospace;
+	border-radius: 5px;
+}
+input:hover{
+	color:black;
+}
+.password input{
+	height:25px;
+	border:none;
+	background:snow;
+}
+.password input:active{
+	border:none;
+}
+.password span>img{
+	position:absolute;
+	width:auto;
+	height:25px;
+	padding:0;
+	transform:translateX(-21px);
+	border:none;
+} 
+.submit{
+	box-sizing: border-box;
+	border:1px solid rgba(0,0,0,0.3);
+	color:black;
+	background:none;
+	font-family:all;
+	border-radius: 5px;
+	box-shadow:2px 1px 1px rgba(0,0,0,0.3);
+}
+.submit:active{
+	position:relative;
+	top:1px;
+	width:50px;
+	color:green
+}
